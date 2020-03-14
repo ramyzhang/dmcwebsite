@@ -1,0 +1,29 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  padding-left: 15%;
+  padding-right: 15%;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+body {
+  background-image: url("images/IMG_2968_compressed.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-family:"IBM Plex Mono", sans-serif;
+  line-height: 3.95vw;
+      font-weight: bold;
+          font-variant-ligatures: normal;
+  font-size: 3.95vw;
+  color: #251A1E;
+}
