@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Deezed Man Collective</title>
     <!-- Google fonts -->
-    <link class="googlefont" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700,700i" rel="stylesheet">
-    <link class="googlefont" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="index.css">
     <!-- Latest compiled and minified CSS -->
@@ -15,28 +14,68 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Favicon overkill stuff -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
-  <body>
-    <div class="container">
-        <h1><mark>Deezed Man Collective</mark></h1>
-        <img src="images/DMC.gif" class="img-fluid">
-        <div class="nav"><h1>
-          <a href="index.html">About</a>
-          <a href="music.html">Music</a>
-          <a href="https://www.youtube.com/watch?v=8eJLUsmx8yg">Videos</a>
-          <a href="contact.html">Contact</a>
-        </h1></div>
-        <p>The Deezed Man Collective (DMC) is a <b>music collective</b> born on the suburban outskirts of Toronto, Ontario.
-          Influenced by an eclectic and groovy fusion of rock, blues, jazz, R&B, pop, and a dash of progressive metal, our fresh sound can get any crowd to jam along.</p>
-        <p>Members of the DMC have performed at the <mark>Beaches International Jazz Festival</mark>, toured throughout <mark>China</mark>, and performed at events across Southern Ontario - most recently for the <mark>2019 Aurora Winter Festival at Ontario Place</mark>.</p>
-        <p>The DMC’s debut single titled <mark><a href="https://open.spotify.com/artist/35aKMPGOUbxuRqbQ65LvL9">For You</a></mark> is available on all major streaming platforms, and we're currently working on our first album.
-             Catch us on Instagram <mark><a href="https://www.instagram.com/deezedmancollective/?hl=en">@deezedmancollective</a></mark> and <mark><a href="https://www.facebook.com/deezedmancollective/">Facebook</a></mark> to keep up with further updates.</p>
-        <h1>Before they were deezed...</h1>
-        <p>It all started in the mid-2000s, when childhood friends Anthony Nufrio (guitar & vocals), Matthew Reyes (drums), and Kyle Palmer (bass) picked up their first instrument in grade school music class.
-            Starting with favorite songs, then slowly fiddling with soundtracks, the group had developed an amazing chemistry together. </p>
-        <p>But college and university put them on separate paths for years, until the trio finally reunited in 2019.
-            Joined by talented friends they made along the way - Ramy Zhang (vocals) and John Salazar (keys) - they’re picking up where they left off, and are ready to make some real good music.</p>
+  <body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+      <div class="container">
+        <div class="nestedbody">
+          <br />
+          <h1 class="title"><mark>Deezed Man Collective</mark></h1><br />
+          <img src="images/DMC.gif" class="img-fluid">
+          <div class="nav">
+            <h1>
+              <a href="index.html">About</a>
+              <a href="music.html">Music</a>
+              <a href="https://www.youtube.com/watch?v=8eJLUsmx8yg">Videos</a>
+              <a href="contact.html">Contact</a>
+            </h1>
+          </div>
+          <br />
+          <p>The Deezed Man Collective (DMC) is a <b>music collective</b> born on the suburban outskirts of Toronto, Ontario.
+            Influenced by an eclectic and groovy fusion of rock, blues, jazz, R&B, pop, and a dash of progressive metal, our fresh sound can get any crowd to jam along.</p>
+          <p>Members of the DMC have performed at the <mark>Beaches International Jazz Festival</mark>, toured throughout <mark>China</mark>, and performed at events across Southern Ontario - most recently for the <mark>2019 Aurora Winter Festival at Ontario Place</mark>.</p>
+          <p>The DMC’s debut single titled <mark><a href="https://open.spotify.com/artist/35aKMPGOUbxuRqbQ65LvL9">For You</a></mark> is available on all major streaming platforms, and we're currently working on our first album.
+               Catch us on Instagram <mark><a href="https://www.instagram.com/deezedmancollective/?hl=en">@deezedmancollective</a></mark> and <mark><a href="https://www.facebook.com/deezedmancollective/">Facebook</a></mark> to keep up with further updates.</p>
+          <br />
+          <h1>Before they were deezed...</h1><br />
+          <p>It all started in the mid-2000s, when childhood friends Anthony Nufrio (guitar & vocals), Matthew Reyes (drums), and Kyle Palmer (bass) picked up their first instrument in grade school music class.
+              Starting with favorite songs, then slowly fiddling with soundtracks, the group had developed an amazing chemistry together. </p>
+          <p>But college and university put them on separate paths for years, until the trio finally reunited in 2019.
+              Joined by talented friends they made along the way - Ramy Zhang (vocals) and John Salazar (keys) - they’re picking up where they left off, and are ready to make some real good music.</p>
+        </div>
       </div>
     </div>
   </body>
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 </html>

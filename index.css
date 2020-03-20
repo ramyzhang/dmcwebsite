@@ -19,11 +19,104 @@ body {
   position: relative;
 }
 
-h1 {
-  font-family:"IBM Plex Mono", sans-serif;
-  line-height: 3.95vw;
-      font-weight: bold;
-          font-variant-ligatures: normal;
-  font-size: 3.95vw;
+.nestedbody {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  font-family: "IBM Plex Mono", sans-serif;
+}
+
+.nestedbody h1 {
   color: #251A1E;
+  font-weight: 700;
+  font-size: 3.95vw;
+  line-height: 3.95vw;
+}
+
+.nestedbody p {
+  font-size: 1vw;
+  line-height: 2vw;
+}
+
+.nestedbody a {
+  color: #946f43
+}
+
+.nestedbody a:visited {
+  color: rgba(201, 171, 135)
+}
+
+.nestedbody a:hover {
+  color: #251A1E;
+}
+
+mark {
+  background-color: rgba(201, 171, 135, 0.5);
+}
+
+b {
+  font-weight: 700;
+}
+
+.nav {
+  font-size: 3.5vw;
+  line-height: 3.95vw;
+}
+
+.title h1 {
+  padding: 1.58vw 10vw 2.37vw 3vw;
+}
+
+/* loader stuff */
+/* Center the loader */
+#loader {
+  width: 120px;
+	height: 120px;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #946f43;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
 }
